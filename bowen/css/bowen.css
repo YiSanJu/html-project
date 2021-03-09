@@ -1,0 +1,47 @@
+/*reset*/
+*{margin:0;padding: 0;}
+ul,ol{list-style: none;}
+img{display:block;}
+a{text-decoration: none;color:#646464}
+h1,h2,h3{font-size: 16px;}
+body{font-family: arial;}
+
+.l{float: left;}
+.r{float: right;}
+.clear:after{content: "";display: block;clear: both;}
+.container{width: 1080px;margin: 0 auto;position: relative;overflow: auto;}
+.container-fluid{width:100%;}
+/*共用*/
+p{color: #808080;font-size: 14px;}
+.h{text-align: center;color: #646464;margin-top: 20px;}
+.p{text-align: center;color: #808080;font-size: 14px;}
+.h3{text-align: center;color: #646464;margin-top: 80px;}
+.p3{text-align: center;color: #808080;font-size: 14px;margin-bottom: 20px;}
+.button{display: block;margin: 40px auto; text-align: center; width: 150px;height: 40px;line-height: 40px;color: white; border:  #009799 solid 1px;border-radius: 30px;background-color:  #009799;}
+
+/*top*/
+#top{position: sticky;top:0;height: 100px;}
+#top .logo{margin-top: 14px;}
+#top .menu li{float: left;padding-left: 35px;}
+#top .menu {font-size: 14px;line-height: 100px;}
+/*banner*/
+#banner{height: 500px;background: center 0 no-repeat;}/*0 center 的意思就是 水平位置0 垂直位置居中*/
+/*section1 tubiao*/
+.pic{width: 200px;margin-left: 50px;}
+.pic img{margin: auto;padding-top: 5px;}
+
+/*section kehu*/
+.container .picture{margin-left: 50px;}
+.container .picture.picture0{margin-left: 0px;}
+/*section zixun*/
+.imgs{display:inline-block;margin-right: 10px;}
+.imgss{display:inline-block;}
+.kuai{width: 400px; float: left;margin-right:30px;}
+.mari{margin-top: 50px;}
+.ma{width: 860px;}
+/*bottom*/
+.bottom{height: 80px;background-color: #009799;margin-top: 50px;}
+.bottom span{line-height: 80px;color: white;}
+.bottom li{float: left;margin-left: 20px;}
+.bottom .gai{margin-right: 0px;}
+.bottom li a{color: white;line-height: 80px;}
